@@ -2906,11 +2906,11 @@ button.button {
 
 .header-29 {
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  @media (max-width: 770px) {
+  @media (max-width: 370px) {
     .header-29 {
       padding-bottom: 70px; } }
 
@@ -2928,7 +2928,7 @@ button.button {
   z-index: 10;
   padding-top: 140px;
   text-align: center; }
-  @media (max-width: 770px) {
+  @media (max-width: 570px) {
     .header-29__container {
       padding-top: 100px; } }
 
@@ -5982,7 +5982,9 @@ button.button {
 .posts-01__text {
   width: 100%;
   font-size: 90%;
-  padding-top: 20px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
   background-color: white;
  }
 .posts-01__inside___text {
@@ -8962,7 +8964,7 @@ button.button {
       margin-bottom: 40px; } }
 
 .footer-01__logo {
-  max-height: 30px;
+  max-height: 80px;
   max-width: 100px; }
 
 .footer-01__list {
@@ -12633,3 +12635,10 @@ a.pswp__share--download:hover {
 .pswp__bg {
   transition: none !important;
   background-color: rgba(0, 0, 0, 0.8); }
+
+  .image_comp {
+    height: 45px;
+    width: 45px;
+    margin: 20px
+  }
+
